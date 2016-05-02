@@ -1,0 +1,37 @@
+{
+  "name": "loader.js",
+  "version": "4.0.3",
+  "description": "loader.js =========",
+  "main": "lib/loader/loader.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ara": "0.0.2",
+    "ora": "^0.2.1",
+    "promise-map-series": "^0.2.2",
+    "qunitjs": "^1.20.0",
+    "testem": "^1.0.0"
+  },
+  "scripts": {
+    "test": "testem ci",
+    "test:dev": "testem"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ember-cli/loader.js/issues"
+  },
+  "homepage": "https://github.com/ember-cli/loader.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ember-cli/loader.js.git"
+  },
+  "keywords": [
+    "ember-addon"
+  ],
+  "ember-addon": {
+    "main": "index.js"
+  }
+}
